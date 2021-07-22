@@ -10,6 +10,18 @@ function App() {
           I love you Blessing
         </p>
       </header>
+      <div className="about">
+        About me 
+      </div>
+      <div className="social">
+        Social Media 
+      </div>
+      <div className="portfolio">
+        Portfolio
+      </div>
+      <div className="contact"> 
+        Contact
+      </div>
     </div>
   );
 }
