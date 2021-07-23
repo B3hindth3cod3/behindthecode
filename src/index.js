@@ -1,17 +1,47 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import logo from './heroimage.jpg';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function Webpage () {
+  return <div>
+    <div>
+    <header class="header">
+      Behind the Code
+    </header>
+  </div>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  {/*hero image*/}
+  <div class="hero">
+    <img class="hero" src={logo} alt="hero"/>
+  </div>
+
+  {/*avatar*/}
+  <div class="avatar">
+    <div class="avatar__letters">
+      AK
+    </div>
+  </div>
+
+  {/*About Me*/}
+  <div class="about">
+    <h1>About Me</h1>
+    <h2>ENGINEER | DEVELOPER</h2>
+    <p class="lead text-muted">Using Engineering and Programming to answer design problems with honest solutions.</p>
+  </div>
+  <div>
+    Social Media
+  </div>
+
+  <div>
+    Portfolio
+  </div>
+  <div>
+    Projects
+  </div>
+
+</div>
+}
+
+
+ReactDOM.render(<Webpage/>,document.getElementById('root'));
