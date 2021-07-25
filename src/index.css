@@ -1,51 +1,62 @@
+body {
+  background-color: whitesmoke;
+}
+
 .header {
-  /* Stick to the top */
-  position: sticky;
-  top: 0px;
-  background-color: #212529;
-  color: white;
-  height: 35px;
-  max-width: 120vw;
-  width: 100vw;
+  /* Stick to the top 
+  position: sticky;*/
+  color: black;
+  height: 5vw;
+  width: 95vw;
   text-align: center;
-  font-size: 26px;
-  opacity: 0.8;
+  font-size: 4vw;
+  font-family: fantasy;
 }
 
 .hero {
   position: relative;
   left: 50%;
   right: 50%;
+  height: 30vw;
   margin-left: -50vw;
   margin-right: -50vw;
   max-width: 100vw;
   width: 100vw;
 }
 .avatar {
-
-  text-align: center; /*Text alignment*/
-  position: absolute; /*avatar positioning*/
-  top: 140px; /*vertical positioning*/
-  right: 250px; /*horizontal positioning*/
-  color: white;
   /*avatar circle*/
-  background-color: rgba(0, 0, 0, .3);
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  background-color: grey;
+  border-radius: 50%; /*make avatar a circle not square*/
+  height: 20vw; 
+  width: 20vw;
+  display: flex;
+  position: relative;
+  top: -10vw;
+  left: 40%;
+  border: 7px solid white;
 }
+
 
 .avatar__letters {
   /* Center the content */
-  left: 50%;
   position: relative;
-  top: 50%;
+  top: 65%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  font-size: 10vw;
+  color: white;
 }
 
 .about {
-  padding: 5rem;
+  font-size: 2.5vw;
+  padding: 2rem;
   text-align: center;
-
 }
+
+.media{
+  display: flex;
+  font-size: 7vw;
+  justify-content: space-evenly;
+  color: black;
+}
+
