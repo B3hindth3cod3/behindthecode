@@ -6,11 +6,10 @@ body {
   /* Stick to the top 
   position: sticky;*/
   color: black;
-  height: 5vw;
+  height: 7vw;
   width: 95vw;
   text-align: center;
   font-size: 4vw;
-  font-family: fantasy;
 }
 
 .hero {
@@ -32,7 +31,7 @@ body {
   display: flex;
   position: relative;
   top: -10vw;
-  left: 40%;
+  left: 38%;
   border: 7px solid white;
 }
 

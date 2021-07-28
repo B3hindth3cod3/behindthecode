@@ -41,7 +41,7 @@ function Webpage () {
      <a href="https://github.com/kapotaalan"><FaGithub /> </a>
    </div>
    <div class="socialemail">
-     <FaEnvelope/>
+     <a href="mailto:behindthecodeza@gmail.com"><FaEnvelope/> </a>
    </div>
   </div>
 </div>
